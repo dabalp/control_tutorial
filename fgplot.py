@@ -45,4 +45,5 @@ if __name__=='__main__':
         ax=plt.subplot(len(plot_keys),1,i+1,sharex=top_ax)
       plt.plot(data_dict[key][0],data_dict[key][1])
       plt.title(key)
+  plt.savefig('temp.png')
   plt.show()
